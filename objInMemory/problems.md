@@ -1,6 +1,6 @@
 ---
 title: vc++对象在内存中的布局
-date: 2019-5-13
+date: 2019-5-18
 tags: c++,对象,继承,多态,虚函数,虚表
 ---
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -39,8 +39,9 @@ private:
 ```
 
 对象布局：
+
 | A    |
-|------|
+| ---- |
 | A::a |
 | A::b |
 
@@ -86,6 +87,7 @@ private:
 ```
 
 C的对象布局：
+
 | C    |
 |------|
 | B::c |
